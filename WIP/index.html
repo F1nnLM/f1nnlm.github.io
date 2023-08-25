@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My portfolio | WIP</title>
+    <link rel="icon" type="image/png" href="files/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+    body {
+        background-color: blanchedalmond;
+        margin: 0;
+        padding: 0;
+        font-family: 'Space Mono', monospace;
+    }
+
+    /* Common styles for both desktop and mobile */
+
+    h1 {
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        animation: fadeInH1 1s;
+        margin-top: 50vh;
+        font-size: 200%;
+    }
+
+    p {
+        color: black;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+        margin: 0;
+        opacity: 0;
+        animation: fadeIn 1s ease-out forwards 1s;
+    }
+
+    /* Animation keyframes */
+
+    @keyframes fadeInH1 {
+        0% {
+            opacity: 0;
+            margin-top: 80vh;
+        }
+        100% {
+            opacity: 1;
+            margin-top: 50vh;
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    /* Mobile-specific styles */
+
+    @media only screen and (max-width: 768px) {
+        h1 {
+            font-size: 150%;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        @keyframes fadeInH1 {
+            0% {
+                opacity: 0;
+                margin-top: 70vh;
+            }
+            100% {
+                opacity: 1;
+                margin-top: 50vh;
+            }
+        }
+    }
+
+</style>
+<body>
+    <h1>Website under construction</h1>
+    <p>by Ludovico Marino</p>
+</body>
+
+</html>
