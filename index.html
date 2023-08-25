@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>WIP</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+    body {
+        background-color: blanchedalmond;
+    }
+    h1 {
+         position: absolute;
+        color: black;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 200%;
+        font-weight: bold;
+        animation: fadeInH1 1s;
+        font-family: 'Space Mono', monospace;
+        
+    }
+
+    p { 
+        font-family: 'Space Mono', monospace;
+        color: black;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+        margin: 0;
+        position: absolute;
+        top: 60%; 
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0; 
+        animation: fadeIn 1s ease-out forwards 1s;
+    }   
+
+    /*h1 animation*/
+
+    @keyframes fadeInH1 {
+    0% { opacity: 0;
+    top: 80%;
+    font-size: 100%; }
+    100% { opacity: 1; 
+    top: 50%;
+    font-size: 200%;}
+    
+
+    }
+
+    /*p animation*/
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+</style>
+<body>
+    <h1>Website under construction!</h1>
+    <p>by Ludovico Marino</p>
+</body>
+
+</html>
